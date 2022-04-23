@@ -50,16 +50,16 @@ const Navbar = () => {
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         <li>
-          <a href="https://whitepaperv.1.racersutopia.com" className="text-white mx-3">Whitepaper</a>
+          <a href="https://whitepaperv.1.racersutopia.com" target='_blank' rel="noreferrer" className="text-white mx-3">Whitepaper</a>
         </li>
         <li>
-          <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" className="text-white mx-3">Tokenomics</a>
+          <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" target='_blank' rel="noreferrer" className="text-white mx-3">Tokenomics</a>
         </li>
         <li>
-          <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" className="text-white mx-3">Roadmap</a>
+          <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" target='_blank' rel="noreferrer" className="text-white mx-3">Roadmap</a>
         </li>
         <li>
-          <a href="/" className="text-white mx-3">Audit</a>
+          <a href="https://github.com/AuditRateTech/Smart-Contract-Audits/blob/main/Carkey_0xd27065EC88505E9AEe48e866d34f7A4098C977dA.pdf" target='_blank' rel="noreferrer" className="text-white mx-3">Audit</a>
         </li>
         <li>
           <a href='/' className="text-white mx-3">Marketplace</a>
@@ -85,16 +85,16 @@ const Navbar = () => {
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
             <li>
-              <a href="https://whitepaperv.1.racersutopia.com" className="text-white mx-3">Whitepaper</a>
+              <a href="https://whitepaperv.1.racersutopia.com" target='_blank' rel="noreferrer" className="text-white mx-3">Whitepaper</a>
             </li>
             <li>
-              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" className="text-white mx-3">Tokenomics</a>
+              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" target='_blank' rel="noreferrer" className="text-white mx-3">Tokenomics</a>
             </li>
             <li>
-              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" className="text-white mx-3">Roadmap</a>
+              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" target='_blank' rel="noreferrer" className="text-white mx-3">Roadmap</a>
             </li>
             <li>
-              <a href="/" className="text-white mx-3">Audit</a>
+              <a href="https://github.com/AuditRateTech/Smart-Contract-Audits/blob/main/Carkey_0xd27065EC88505E9AEe48e866d34f7A4098C977dA.pdf" target='_blank' rel="noreferrer" className="text-white mx-3">Audit</a>
             </li>
             <li>
               <a href='/' className="text-white mx-3">Marketplace</a>

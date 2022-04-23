@@ -63,14 +63,14 @@ const Countdown = () => {
                   </tr>
                 </table>
                 <button className='flex text-white tracking-wide bg-gradient-to-l from-cyan-700 to-blue-900 hover:bg-gradient-to-r hover:shadow-md hover:shadow-cyan-400 duration-500 ease-in rounded px-2 py-2 md:mx-10 my-2 md:my-0'>
-                  Join Now
+                  <a href='https://www.pinksale.finance/#/launchpad/0xc3C060928d8f109E7997dd64Ff866B98Ddb33C3B?chain=BSC' target='_blank' rel="noreferrer" >Join Now</a>
                 </button>
             </div>
           </div>
           <div className='flex md:justify-center justify-between items-center gap-2 p-4'>
                 <button className='flex text-white tracking-wide bg-gradient-to-l from-cyan-700 to-blue-900 hover:bg-gradient-to-r hover:shadow-md hover:shadow-cyan-400 duration-500 ease-in rounded px-2 py-2 md:mx-10 my-2 md:my-0'>
                     <div className='pt-1 px-2 items-center'><BsFillArrowUpRightSquareFill /></div>
-                    <a className='px-2 text-white' href='https://gleam.io/mghvM/racers-utopia-presale-whitelist-competition' target='_blank' rel='noreferrer'>Whitelist</a>
+                    <a className='px-2 text-white' href='#' target='_blank' rel='noreferrer'>Whitelist</a>
                 </button>
                 <button className='flex text-white tracking-wide bg-gradient-to-l from-cyan-700 to-blue-900 hover:bg-gradient-to-r hover:shadow-md hover:shadow-cyan-400 duration-500 ease-in rounded px-2 py-2 md:mx-10 my-2 md:my-0'>                      <div className='pt-1 px-2 items-center'><BsFillGiftFill /></div>
                     <a className='px-2 text-white' href='https://gleam.io/jTTXJ/racersutopia-airdrop-campaign' target='_blank' rel="noreferrer">Airdrop</a>
