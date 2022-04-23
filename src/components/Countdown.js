@@ -46,7 +46,7 @@ const Countdown = () => {
         <div className='md:w-3/4 py-8 md:px-4'>
           <h1 className='md:text-7xl text-3xl text-center text-white tracking-wide py-4'><span className='text-[#892CDC]'>ILO</span> EVENT</h1>
           <div className='flex flex-col justify-center items-center white-glassmorphism p-4 shadow-md shadow-cyan-400'>
-            <h1 className='text-white text-3xl uppercase text-center font-sans'>SUPER ILO EVENT</h1>
+            <h1 className='text-white text-3xl uppercase text-center font-sans'>FAIRLAUNCH</h1>
             <h1 className='text-white text-3xl uppercase text-center font-sans'>ON</h1>
             <h1 className='text-white text-3xl uppercase text-center font-sans'>PINKSALE</h1>
             <div className='flex flex-col justify-center items-center'>
