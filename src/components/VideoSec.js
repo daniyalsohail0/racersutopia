@@ -4,7 +4,7 @@ const VideoSec = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
         <div>
-          <img src='./cars/image00001.gif' />
+          <img src='./cars/image00001.gif' alt='' />
         </div>
         <div className='flex flex-col justify-center items-center py-10 w-5/6'>
             <h1 className='md:text-6xl text-3xl text-white uppercase'>
@@ -16,29 +16,29 @@ const VideoSec = () => {
             <p className='text-white text-center'>
               Mystery trucks are classified as 6400 COMMON TRUCKS, 1200 UNCOMMON & 200 RARE TRUCKS.
             </p>
-            <table className='border-2 border-white border-solid'>
+            <table className='border-2 shadow-xl shadow-[#892CDC] my-3 mx-2'>
               <tr className='text-white px-2'>
-                <td>
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
                   COMMON TRUCK
                 </td>
-                <td>
-                  | Level ⭐️ Car
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
+                  Level ⭐️ Car
                 </td>
               </tr>
               <tr className='text-white px-2'>
-                <td>
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
                   UNCOMMON TRUCK
                 </td>
-                <td>
-                  | Level ⭐️⭐️ Car
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
+                  Level ⭐️⭐️ Car
                 </td>
               </tr>
               <tr className='text-white px-2'>
-                <td>
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
                   RARE TRUCK
                 </td>
-                <td>
-                  | Level ⭐️⭐️⭐️Car
+                <td className='border-2 py-1 px-3 text-center border-[#892CDC]'>
+                  Level ⭐️⭐️⭐️Car
                 </td>
               </tr>
             </table>
