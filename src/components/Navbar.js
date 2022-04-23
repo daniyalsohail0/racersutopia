@@ -84,9 +84,21 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Whitepaper", "Tokenomics", "Roadmap", "Audit", "Marketplace"].map(
-              (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
-            )}
+            <li>
+              <a href="https://whitepaperv.1.racersutopia.com" className="text-white mx-3">Whitepaper</a>
+            </li>
+            <li>
+              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" className="text-white mx-3">Tokenomics</a>
+            </li>
+            <li>
+              <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" className="text-white mx-3">Roadmap</a>
+            </li>
+            <li>
+              <a href="/" className="text-white mx-3">Audit</a>
+            </li>
+            <li>
+              <a href='/' className="text-white mx-3">Marketplace</a>
+            </li>
             <li onClick={requestAccount} className="flex justify-between gap-2 py-2 px-7 mx-4 my-4 rounded bg-gradient-to-l from-cyan-700 to-blue-900 hover:bg-gradient-to-r hover:shadow-md hover:shadow-cyan-400 duration-500 cursor-pointer">
               <BsWallet className="pt-1 text-xl"/>
               <span>Wallet</span>

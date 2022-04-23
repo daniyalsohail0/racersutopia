@@ -12,7 +12,7 @@ const Footer = () => (
           <h1 className="text-md text-white">
             About
           </h1>
-          <a className="text-white">About Us</a>
+          <a className="text-white" href="/">About Us</a>
           <a href="https://whitepaperv.1.racersutopia.com" className="text-white">Whitepaper</a>
           <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/tokenomics" className="text-white">Tokenomics</a>
           <a href="https://whitepaperv.1.racersutopia.com/overall-documentation/roadmap" className="text-white">Roadmap</a>
@@ -21,10 +21,10 @@ const Footer = () => (
           <h1 className="text-md text-white">
             Social
           </h1>
-          <a className="text-white">Twitter</a>
-          <a className="text-white">YouTube</a>
-          <a className="text-white">Telegram</a>
-          <a className="text-white">Discord</a>
+          <a className="text-white" href='https://twitter.com/racersutopia' target='_blank' rel="noreferrer">Twitter</a>
+          <a className="text-white" href='https://youtube.com/channel/UCikk3coHDPkwVlX3rHjwHOQ' target='_blank' rel="noreferrer">YouTube</a>
+          <a className="text-white" href="https://t.me/racersutopia" target='_blank' rel="noreferrer">Telegram</a>
+          <a className="text-white" href='https://discord.gg/qMes9y3B' target='_blank' rel="noreferrer">Discord</a>
         </div>
         <div className="flex flex-col">
           <h1 className="text-md text-white">
